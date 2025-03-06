@@ -9,12 +9,52 @@ A powerful command-line interface for generating high-quality speech using the B
 - 📊 Real-time progress tracking
 - 💪 CUDA support for faster generation
 - 🎨 Clean and intuitive user interface
+- 🌐 Multi-language support:
+    - English
+    - German
+    - Spanish
+    - French
+    - Hindi
+    - Italian
+    - Japanese
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Turkish
+    - Chinese
+
+## 🖥️ CLI Interface
+
+```
+========================================
+ /$$$$$$$$                                                     
+| $$_____/                                                     
+| $$        /$$$$$$  /$$   /$$  /$$$$$$   /$$$$$$$             
+| $$$$$    /$$__  $$| $$  | $$ |____  $$ /$$_____/             
+| $$__/   | $$  \ $$| $$  | $$  /$$$$$$$| $$                   
+| $$      | $$  | $$| $$  | $$ /$$__  $$| $$                   
+| $$$$$$$$| $$$$$$$/|  $$$$$$$|  $$$$$$$|  $$$$$$$             
+|________/| $$____/  \____  $$ \_______/ \_______/             
+          | $$       /$$  | $$                                 
+          | $$      |  $$$$$$/                                 
+          |__/       \______/                                  
+ /$$$$$$$$ /$$$$$$$$ /$$$$$$         /$$$$$$  /$$       /$$$$$$
+|__  $$__/|__  $$__//$$__  $$       /$$__  $$| $$      |_  $$_/
+   | $$      | $$  | $$  \__/      | $$  \__/| $$        | $$  
+   | $$      | $$  |  $$$$$$       | $$      | $$        | $$  
+   | $$      | $$   \____  $$      | $$      | $$        | $$  
+   | $$      | $$   /$$  \ $$      | $$    $$| $$        | $$  
+   | $$      | $$  |  $$$$$$/      |  $$$$$$/| $$$$$$$$ /$$$$$$
+   |__/      |__/   \______/        \______/ |________/|______/
+========================================
+```
 
 ## 🛠️ Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Epyac_TTS_CLI.git
+git clone https://github.com/asaadzx/Epyac_TTS_CLI
 
 # Navigate to project directory
 cd Epyac_TTS_CLI
@@ -31,9 +71,9 @@ python tts_cli.py
 ```
 
 2. Follow the interactive prompts:
-    - Enter your text
-    - Choose a voice preset
-    - Specify output file location
+        - Enter your text or load from file
+        - Choose language and voice preset
+        - Specify output file location
 
 ## 🎧 Audio Samples
 
@@ -44,6 +84,7 @@ Here are some examples of generated audio:
 | "Hello World!" | v2/en_speaker_3 | [Listen](samples/hello_world.wav) |
 | "Welcome to TTS" | v2/en_speaker_6 | [Listen](samples/welcome.wav) |
 | "Test" | v2/en_speaker_2 | [Listen](samples/test.wav) |
+
 ## 🔧 System Requirements
 
 - Python 3.7+

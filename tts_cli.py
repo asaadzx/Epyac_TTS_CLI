@@ -94,7 +94,7 @@ def main():
     print(f"{Fore.CYAN}========================================{Style.RESET_ALL}")
     print(f"{Fore.YELLOW}  {Style.RESET_ALL}")
     print(f"""{Fore.YELLOW} 
-  _
+  
 
  /$$$$$$$$                                                     
 | $$_____/                                                     
