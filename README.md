@@ -84,10 +84,14 @@ Here are some examples of generated audio:
 | "Hello World!" | v2/en_speaker_3 | [Listen](samples/hello_world.wav) |
 | "Welcome to TTS" | v2/en_speaker_6 | [Listen](samples/welcome.wav) |
 | "Test" | v2/en_speaker_2 | [Listen](samples/test.wav) |
-<audio controls autoplay>
-  <source src="samples/test.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
+
+## 🎵 Demo Audio
+
+<audio controls>
+    <source src="samples/test.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
 </audio>
+
 ## 🔧 System Requirements
 
 - Python 3.7+
