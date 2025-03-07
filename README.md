@@ -88,6 +88,7 @@ Here are some examples of generated audio:
 ## 🎵 Demo Audio
 
 <audio controls>
+    <source src="samples/test.ogg" type="audio/ogg">
     <source src="samples/test.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
