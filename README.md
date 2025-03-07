@@ -89,7 +89,7 @@ Here are some examples of generated audio:
 
 <audio controls autoplay muted>
     <source src="samples/test.ogg" type="audio/ogg">
-    <source src="samples/test.mp3" type="audio/mpeg">
+    <source src="samples/test.wav" type="audio/wav">
     Your browser does not support the audio element.
 </audio>
 
